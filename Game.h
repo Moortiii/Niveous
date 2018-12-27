@@ -12,9 +12,11 @@ public:
     int run();
     void clean();
     void update(float dt);
+    bool setOpenGlAttributes();
 private:
     SDL_Window* window;
     SDL_Event event;
+    SDL_GLContext mainContext;
     float timestep;
     float dt;
     int32 velocityIterations;

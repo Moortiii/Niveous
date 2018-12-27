@@ -19,4 +19,6 @@ target_link_libraries(
         SDL2
         SDL2_image
         Box2D
+        GLEW
+        OpenGL
         )
