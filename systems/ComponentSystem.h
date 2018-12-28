@@ -1,7 +1,7 @@
 #ifndef NIVEOUS_COMPONENTSYSTEM_H
 #define NIVEOUS_COMPONENTSYSTEM_H
 
-#include "../ECS/entt.hpp"
+#include "../entt/entt.hpp"
 
 class ComponentSystem {
 public:

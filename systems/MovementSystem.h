@@ -1,7 +1,7 @@
 #ifndef NIVEOUS_MOVEMENTSYSTEM_H
 #define NIVEOUS_MOVEMENTSYSTEM_H
 
-#include "../ECS/entity/registry.hpp"
+#include "../entt/entity/registry.hpp"
 #include "../components/Position.h"
 #include "../components/Velocity.h"
 #include "ComponentSystem.h"

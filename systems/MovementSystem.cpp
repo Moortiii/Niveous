@@ -9,6 +9,6 @@ void MovementSystem::update(float dt) {
         position.x += velocity.x * dt;
         position.y += velocity.y * dt;
 
-        SDL_Log("Position: %g, %g", position.x, position.y);
+        //SDL_Log("Position: %f, %f", position.x, position.y);
     });
 }

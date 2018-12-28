@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(
         Niveous
         configuration/Configuration.h
-        ECS/entt.hpp
+        entt/entt.hpp
         Game.cpp
         Game.h
         main.cpp
